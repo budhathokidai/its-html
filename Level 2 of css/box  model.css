@@ -7,7 +7,6 @@ div {
     text-align: center;
     border-radius: 5px;
 }
-
 button{
     border-width: 3px;
     border-color:black;
@@ -30,3 +29,5 @@ p{
     border: 2px solid black;     /*sthortcut to enter  border*/
     width:250px
 }
+
+
