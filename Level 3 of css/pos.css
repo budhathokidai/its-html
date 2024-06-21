@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border:2px solid black;  
+    display:inline-block  
+}
+
+#one{
+    position:static;
+    top:30px;
+    background-image:url("/basic/krishna.jpeg");
+    background-size: cover;
+    
+}
+
+#two{
+    position:relative;
+    top:30px;
+    right:30px;
+    left:30px;
+    bottom:30px;
+    
+    
+}
+#three{
+    position:absolute;
+    top:10px;     /*in this case the ancestor is body tag .top is measuerd from closed position of body(ancestor)*/
+    left:150px
+    
+
+    }
+
+#four{
+    position:fixed;
+   right:0px;
+    bottom:0px;
+    width:100%;   /*or 100vw*/
+    background-image: url("/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#five{
+    position:sticky;
+     top:0;      /*becomes fixed after  its position*/
+    z-index: 1 ;   /*position of box "positive brings to front"  "negative takes it to back"    but for static property z-index cannot be used*/
+}
