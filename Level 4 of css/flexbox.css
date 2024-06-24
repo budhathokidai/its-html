@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px solid black;
+    
+}
+
+#container{
+    width:800px;
+    height:300px;
+    display:flex;   /*after this we can use all flex properties*/
+    flex-direction: row;    /*speciality:tries ti fit in the container eventhough its height and width are changed*/  
+    justify-content: center;  
+    /*flex-wrap: wrap;*/
+    align-items: flex-start; /*align in cross axis*/
+    /*align-content: center;/*flex-start,end also can be used in both item and content,well this is used to fulfill the spacebetween items*/
+
+
+}
+
+#box1{
+    background-color: aqua;
+    flex-grow: 2;
+
+}
+
+#box2{
+    background-color: antiquewhite;
+    height: 200px;
+    flex-shrink: 0.5;
+    flex-grow: 2;
+}
+#box3{
+    background-color: bisque;
+    height: 75px;
+    
+}
+#box4{
+    background-color: burlywood;
+    /*align-self: flex-end;  /*if align-items is used*/
+    
+}
+#box5{
+    background-color: blueviolet;
+    flex-grow: 2;
+}
