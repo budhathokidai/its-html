@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;    /*adjustment*/
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("/images/logoo.png");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+/*location/box2*/
+.firstloc{
+    color:#cccccc;
+    font-size: 0.85 rem;
+    margin-left: 15px;
+}
+.secondloc{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.location_icon{
+    display:flex;
+    align-items: center;
+}
+/*box 3*/
+.nav_search{
+    display:flex;
+    justify-content: space-evenly;
+    width:620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+.searchinput{
+    width:100%;
+    border:none;
+    font-size: 1rem;
+}
+.searchicon{
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 191, 0);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:#0f1111
+    
+}
+.nav_search:hover{
+    border:2px solid   rgb(255, 191, 0);
+
+}
+
+/*box 5*/
+span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+
+/*box cart6*/
+.navcart i{
+    font-size: 30px;
+
+}
+
+.navcart{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*pannel*/
+
+.pannel{
+height:40px;
+background-color: #222f3d;
+display: flex;
+color:aliceblue;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.pannelop p{
+    display:inline;
+    margin-left: 14px;
+}
+.pannelop{
+    width:70%;
+    font-size: 0.85rem;
+}
+
+.panneldeal{
+    font-size: 0.86rem;
+    font-weight: 700;
+
+}
+
+
+/*herosection*/
+
+
+.herosection{
+    background-image: url("/images/main.jpg");
+    background-size: cover;
+    height:450px;
+    display:flex;
+    justify-content: center;
+
+    align-items: flex-end;
+}
+.heromsg{
+    background-color: white;
+    color:#0f1111;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 10px;
+}
+.heromsg a{
+  color:#007185;
+  text-decoration: none;
+}
+
+
+/*contents*/
+.contents{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #B79D94;
+}
+
+.box{
+    
+    height: 450px;
+    width:22%;
+    background-color: white;
+    padding:20px 0px 15px ;
+    margin-top: 8px;
+}
+
+.box1img{
+    height:340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.boxcont{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.boxcont a{
+    color:#007185;
+    text-decoration: none;
+
+}
+
+/*footer*/
+footer{
+    margin-top: 2px;
+}
+.footpannel1{
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.footpannel2{
+    background-color: #222f3d;
+    Color:white;
+    height:500px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color:#dddddd;
+}
+
+/*.footpannel3{
+    background-color: #222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    height:70px;
+}
+.logofoot{
+    background-image:url("/images/amazonlogo.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+
+}*/
+.footpannel4{
+    background-color: #0f1111;
+    color:white;
+    height:80px;
+    font-size: 0.7rem;
+   text-align: center;
+
+}
+.end{
+    
+   padding-top: 25px;
+}
+.copyright{
+   
+    padding-top: 5px;
+    
+}
