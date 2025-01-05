@@ -1,0 +1,17 @@
+
+/*div{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline;
+}
+button{
+    display:block;
+}*/
+
+#rr{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0,0,255,0.5);
+    padding: 25px;
+    margin: 25px;
+    display:inline-block;
+}
